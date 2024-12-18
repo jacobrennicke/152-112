@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--152-112 HTML/XML
+    Instructor: Dom Garofalo
+
+    Author: Jacob Rennicke
+    Assessment Info: Final Project
+    Date: 11/14/2024
+
+    Filename:         index.htm
+    Supporting files: webography.htm
+                      resume.htm
+                      contact.htm
+-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jacob Rennicke | Webography</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            background: white;
+            font-family: "Georgia", serif;
+            color: grey;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        hr {
+            border: 0;
+            border-top: 2px solid lightskyblue;
+        }
+        #nav input {
+            font-family: "Georgia", serif;
+            font-size: 15px;
+            text-align: left;
+            border-radius: 5px;
+            border-color: lightskyblue;
+            margin: 20px;
+            margin-bottom: 50px;
+            padding: 20px;
+        }
+        #nav {
+            background: white;
+            padding: 10px;
+            width: 20%;
+            text-align: left;
+        }
+        #nav h1, #nav h2 {
+            color: black;
+            font-family: 'Merriweather', serif;
+            font-size: 35px;
+            padding: 10px;
+            margin: 0px;
+        }
+        #nav ul {
+            font-size: 20px;
+            list-style-type: none;
+            padding: 10px;
+        }
+        #nav a:link {
+            color: grey;
+            text-decoration: none;
+        }
+        #nav a:visited {
+            color: grey;
+            text-decoration: none;
+        }
+        #nav a:hover {
+            color: lightskyblue;
+            text-decoration: none;
+        }
+        #nav a:active {
+            color: lightskyblue;
+            text-decoration: none;
+        }
+        #article {
+            background: white;
+            padding: 10px;
+            width: 80%;
+            overflow: hidden;
+        }
+        #article h1, #article h2, #article h3 {
+            color: black;
+            font-family: 'Merriweather', serif;
+        }
+        #article h1 {
+            font-size: 75px;
+        }
+        #article h2, #article h3 {
+            font-size: 35px;
+        }
+        #article li {
+            margin-top: 10px;
+        }
+        #article a:link {
+            color: grey;
+            text-decoration: none;
+        }
+        #article a:visited {
+            color: grey;
+            text-decoration: none;
+        }
+        #article a:hover {
+            color: lightskyblue;
+            text-decoration: none;
+        }
+        #article a:active {
+            color: lightskyblue;
+            text-decoration: none;
+        }
+        .social-media-icons a {
+            font-size: 30px;
+            margin: 10px;
+            color: lightskyblue !important;
+            text-decoration: none;
+        }
+        .social-media-icons a:link {
+            color: lightskyblue !important;
+        }
+        .social-media-icons a:visited {
+            color: lightskyblue !important;
+        }
+        .social-media-icons a:hover {
+            color: grey !important;
+        }
+        .social-media-icons a:active {
+            color: grey !important;
+        }
+        .float-right {
+            float: right;
+            margin-left: 20px;
+            width: 500px;
+            margin-top: 10px;
+        }
+        .flex-container {
+            display: flex;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            width: 100%;
+        }
+        #footer {
+            width: 100%;
+            margin-top: 100px;
+            text-align: center;
+        }
+        #footer p {
+            padding: 10px;
+            color: grey;
+        }
+        #footer hr {
+            width: 95%;
+        }
+    </style>
+</head>
+<body>
+    </div>
+    <div class="flex-container">
+        <div id="nav">
+            <input type="text" id="search" name="search" tabindex="1" placeholder="Search"></input>
+            <h1>Menu</h1>
+            <ul>
+                <li><a href="index.htm">Home</a></li>
+                <hr>
+                <li><a href="webography.htm">Webography</a></li>
+                <hr>
+                <li><a href="resume.htm">Resume</a></li>
+                <hr>
+                <li><a href="contact.htm">Contacts</a></li>
+                <hr>
+            </ul>
+            <h2>Get In Touch</h2>
+            <ul>
+                <li><a href="">Email Me</a></li>
+                <hr>
+                <li>1-800-472-4554</li>
+                <hr>
+                <li>235 N National Avenue, Fond du Lac, WI 54936</li>
+                <hr>
+            </ul>
+        </div>
+        <div id="article">
+            <div class="social-media-icons">
+                <a href="https://www.facebook.com" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <hr>
+            <img src="html5.png" alt="HTML5 Image" class="float-right">
+            <h1>Webography</h1>
+            <h2>10 Must Have HTML Resources</h2>
+            <ul>
+                <li>https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics</li>
+
+                <li>https://www.codecademy.com/pages/learn-html-and-css-with-codecademy-pro</li>
+
+                <li>https://www.freecodecamp.org/news/introduction-to-html-basics</li>
+
+                <li>https://html.com/</li>
+
+                <li>https://geekflare.com/best-html-learning-resources</li>
+
+                <li>https://web.dev/learn/html/</li>
+
+                <li>https://www.creativebloq.com/advice/5-of-the-best-resources-for-learning-html-and-css</li>
+
+                <li>https://www.geeksforgeeks.org/html-tutorial/</li>
+
+                <li>medium.com/level-up-web/30-html-css-resources-for-beginners-4e4d0af4b44b</li>
+
+                <li>https://www.w3schools.com/html</li>
+            </ul>
+            <h3>Brief Explanations for the Web Site Resources Listed</h3>
+            <ul>
+                <li><p><b><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">Mozilla</a></b><br />Goes over the basics of HTML and how it works.</p></li>
+
+                <li><p><b><a target="_blank" href="https://www.codecademy.com/pages/learn-html-and-css-with-codecademy-pro?utm_id=t_kwd-78959076021611:loc-4133:ag_1263339482247027:cp_370314508:n_o:d_c&msclkid=51c1b7574d46117fd300d1b69186f730&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Exact&utm_term=introduction%20to%20html&utm_content=HTML%20%26%20CSS">Codecademy</a></b><br />Has courses to learn HTML and CSS.</p></li>
+
+                <li><p><b><a target="_blank" href="https://www.freecodecamp.org/news/introduction-to-html-basics">freeCodeCamp</a></b><br />Goes over the structure of an HTML document.</p></li>
+
+                <li><p><b><a target="_blank" href="https://html.com/">HTML.COM</a></b><br />Has some history of HTML.</p></li>
+                
+                <li><p><b><a target="_blank" href="https://geekflare.com/best-html-learning-resources/">Geekflare</a></b><br />Gives 10 resources for learning HTML.</p></li>
+                  
+                <li><p><b><a target="_blank" href="https://web.dev/learn/html/">web.dev</a></b><br />Has many articles about how to add different stuff to your web page.</p></li>
+
+                <li><p><b><a target="_blank" href="https://www.creativebloq.com/advice/5-of-the-best-resources-for-learning-html-and-css">Creative Bloq</a></b><br />Gives more resources for learning.</p></li>
+
+                <li><p><b><a target="_blank" href="https://www.geeksforgeeks.org/html-tutorial/">geeksforgeeks</a></b><br />Goes over why it is important to learn HTML.</p></li>
+
+                <li><p><b><a target="_blank" href="https://medium.com/level-up-web/30-html-css-resources-for-beginners-4e4d0af4b44b">Medium</a></b><br />Gives 35 different resources to go to and learn more.</p></li>
+
+                <li><p><b><a target="_blank" href="https://www.w3schools.com/html/">W3Schools</a></b><br />Has examples and exercises to complete.</p></li>
+            </ul>
+            <hr>
+            <p><a href="#top">Back To Top</a></p>
+        </div>
+    </div>
+    <div id="footer">
+        <hr>
+        <p>© All rights reserved. LP6: Final Project  |  Author: Jacob Rennicke</p>
+    </div>
+</body>
+</html>
